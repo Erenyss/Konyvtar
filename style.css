@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+tr:nth-child(odd){  
+    background-color: aqua;
+}
+
+table.td, table.th{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: navy;
+}
+
+{
+    padding: 20px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+.doboz, table{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    background-image: linear-gradient(navy,blue);
+    box-shadow: 15px -15px 15px navy;
+}
+h1{
+    padding: 20px;
+    box-shadow: inset 15px 15px 15px
+    black;
+}
